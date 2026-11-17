@@ -1,0 +1,48 @@
+.hero {
+    background-color: var(--primary-col);
+    color: var(--text-col-light);
+    text-align: center;
+    width: 100%;
+    min-height: 100dvh;
+    height: 100dvh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    overflow: hidden;
+}
+
+.hero-img {
+    margin: 0 auto;
+    margin-top: auto;
+
+    /* Current dimensions */
+    width: 100%;
+    height: auto;
+
+    /* Width constraints */
+    min-width: 260px;
+    max-width: 900px;
+
+    /* Height constraints */
+    min-height: 220px;
+    max-height: 70dvh;
+
+    object-fit: contain;
+}
+
+.bio {
+    margin-top: 10rem;
+}
+
+.bio h1 {
+    font-size: var(--fs-display);
+    font-weight: 800;
+    color: var(--text-col-light);
+}
+
+.bio p {
+    font-size: var(--fs-base);
+    color: var(--text-col-light);
+}

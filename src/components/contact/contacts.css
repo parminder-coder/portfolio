@@ -1,0 +1,54 @@
+.contacts-container {
+  background: var(--footer-col);
+  color: var(--text-col-light);
+  padding: 4rem 2rem;
+}
+
+.contacts-container h2 {
+  font-size: var(--fs-heading);
+  margin-bottom: 0.5rem;
+  color: var(--text-col-light);
+}
+
+.contacts-container p {
+  font-size: var(--fs-sm);
+  color: var(--text-col-light);
+  opacity: 0.85;
+}
+
+.socials-list,
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  list-style: none;
+}
+
+.social-link,
+.contact-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1rem;
+  border-radius: 0.75rem;
+  background: rgba(248, 229, 238, 0.1);
+  border: 1px solid rgba(248, 229, 238, 0.2);
+  color: var(--text-col-light);
+  font-size: var(--fs-sm);
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.social-link:hover,
+.contact-card:hover {
+  background: var(--primary-col);
+  color: var(--text-col-light);
+}
+
+.direct-contact-section {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(248, 229, 238, 0.2);
+}
